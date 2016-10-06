@@ -23,7 +23,7 @@ header {
 
 .container {
     width: 210px;
-    padding: 25px 10px 25px;
+    padding: 17.5px 10px 17.5px;
     color: white;
     margin-top: 0px;
     background-color: #4aaaa5;
@@ -38,7 +38,7 @@ header {
 
 
 .nav {
-    margin-left: 696px;
+    margin-left: 737.5px;
     margin-top: 0px;
     padding-top: 35px;
     padding-bottom: 11px;
@@ -98,7 +98,7 @@ p {
 
 
 
-#buzz {
+.buzz {
     font-family: 'Georgia', Times, Times New Roman, serif;
     clear: both;
     width: 960px;
@@ -129,13 +129,13 @@ h3 {
 
 .icon {
     float: left;
-    padding: 8px;
+    padding: 9px;
     margin: 0 auto;
 }
 
 #special {
     float: left;
-    padding-top: 11px;
+    padding-top: 12px;
     margin-left: 9.5px;
 }
 
@@ -144,7 +144,10 @@ footer {
     padding: 20px;
     clear: both;
     text-align: center;
-    height: 93;
+    height: 30px;
+    font-size: 10px;
     color: #ffffff;
     border-top: 5px solid #4aaaa5;
 }
+
+
