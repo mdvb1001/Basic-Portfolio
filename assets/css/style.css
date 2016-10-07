@@ -40,15 +40,13 @@ header {
 .nav {
     margin-left: 737.5px;
     margin-top: 0px;
-    padding-top: 35px;
-    padding-bottom: 11px;
-    overflow: hidden;
+    padding-top: 21px;
+    padding-bottom: 25px;
     position: static;
     width: 220px;
 }
 
 .nav-element {
-    float: center;
     display: inline;
       
 }
@@ -79,9 +77,9 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 25px;
     color: #4aaaa5;
-    padding-left: 10px;
-    padding-bottom: 15px;
+    padding: 25px;
     border-bottom: 2px solid #cecece;
+    
 
 }
 
@@ -112,18 +110,19 @@ p {
     float: right;
     width: 22.5%;
     padding: 10px;
-    height: 140px;
+    height: 160px;
     background: #fff;
     border: 2px solid #cecece;
     text-align: center;
     display: inline-block;
 }
 
-h3 {
+.side-title {
     border-bottom: 1px solid #cecece;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    line-height: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-bottom: 18px;
+    font-size: 20px;
     color: #4aaaa5;
 }
 
@@ -136,7 +135,56 @@ h3 {
 #special {
     float: left;
     padding-top: 12px;
-    margin-left: 9.5px;
+    margin-left: 9.75px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border: 1px solid #cecece;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    background-color: #4aaaa5;
+    border: none;
+    font-size: 15px;   
+    color: #ffffff;
+    margin-bottom: 25px;
+
+}
+
+.form {
+    float: left;
+    width: 69%;
+    border: 2px solid #cecece;
+    overflow: hidden;
+    background: white;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    padding: 10px 10px 0px 10px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 642px;
+    padding: 12px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border: 1px solid #cecece;
+}
+
+label {
+    color: #95898b;
+}
+
+.square {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 footer {
@@ -149,5 +197,4 @@ footer {
     color: #ffffff;
     border-top: 5px solid #4aaaa5;
 }
-
 
