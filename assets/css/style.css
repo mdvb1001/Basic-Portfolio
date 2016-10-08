@@ -274,7 +274,7 @@ footer {
     padding: 20px;
     clear: both;
     text-align: center;
-    height: 30px;
+    height: 37px;
     font-size: 10px;
     color: #ffffff;
     border-top: 5px solid #4aaaa5;
@@ -283,5 +283,5 @@ footer {
 
 .copy {
     color: #ffffff;
-    padding-top: 10px;
+    padding-top: 12px;
 }
