@@ -78,20 +78,21 @@ header {
     font-size: 25px;
     color: #4aaaa5;
     padding: 25px;
-    border-bottom: 2px solid #cecece;
+    border-bottom: 3px solid #cecece;
     
 
 }
 
 .first-pic {
     float: left;
-    padding: 10px;
+    padding: 25px 10px 10px 10px;
 }
 
-p {
+.para {
     color: #95898b;
     line-height: 30px;
     padding-left: 5px;
+    padding-top: 18px;
 }
 
 
@@ -187,6 +188,80 @@ label {
     margin-right: 10px;
 }
 
+.five-pics {
+    padding-left: 40px;
+}
+
+.folio {
+    float: left;
+    padding: 30px 20px;
+}
+
+.banner-1 {
+    width: 210px;
+    padding: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.banner-2 {
+    width: 210px;
+    padding: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    margin-top: 150px;
+    margin-left: 310px;
+}
+
+.banner-3 {
+    width: 210px;
+    padding: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    margin-top: 397px;
+    margin-left: 20px;
+}
+
+.banner-4 {
+    width: 210px;
+    padding: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    margin-top: 397px;
+    margin-left: 310px;
+}
+
+.banner-5 {
+    width: 210px;
+    padding: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    margin-top: 645px;
+    margin-left: 20px;
+}
+
 footer {
     background: #666666;
     padding: 20px;
@@ -198,3 +273,8 @@ footer {
     border-top: 5px solid #4aaaa5;
 }
 
+
+.copy {
+    color: #ffffff;
+    padding-top: 10px;
+}
