@@ -40,7 +40,7 @@ header {
 
 
 .nav {
-    margin-left: 737.5px;
+    margin-left: 720px;
     margin-top: 0px;
     padding-top: 21px;
     padding-bottom: 25px;
@@ -83,10 +83,13 @@ header {
     color: #4aaaa5;
     padding: 25px 0px 25px 0px;
     margin-left: 25px;
-    border-bottom: 3px solid #dddddd;
-    
-
+    border-bottom: 3px solid #dddddd
 }
+
+.center {
+    padding: 15px;
+}
+
 
 .first-pic {
     float: left;
@@ -134,14 +137,21 @@ header {
     font-size: 20px;
     color: #4aaaa5;
 }
+.all-icons {
+    margin-left: 25px;
+}
 
 .icon {
+    height: 55px;
+    width: 55px;
     float: left;
     padding: 9px;
     margin: 0 auto;
 }
 
-#special {
+.special {
+    height: 49.5px;
+    width: 49.5px;
     float: left;
     padding-top: 12px;
     margin-left: 9.75px;
@@ -167,19 +177,6 @@ input[type=submit] {
 
 }
 
-/* .form is similar to .content for index and portfolio ... 
-should probably delete this selector... */
-
-.form {
-    float: left;
-    width: 650px;
-    border: 2px solid #dddddd;
-    overflow: hidden;
-    background: white;
-    padding-top: 50px;
-    margin-bottom: 30px;
-    padding: 10px 10px 0px 10px;
-}
 
 textarea {
     width: 100%;
@@ -195,8 +192,7 @@ label {
 }
 
 .square {
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 0px 25px 0px 25px;
 }
 
 .five-pics {
