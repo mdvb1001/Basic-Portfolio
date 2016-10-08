@@ -107,8 +107,6 @@ header {
 
 
 .buzz {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    clear: both;
     width: 960px;
     background: #ffffff;
     margin: 0 auto;
@@ -117,6 +115,7 @@ header {
 }
 
 .side {
+    font-family:'Georgia', Times, Times New Roman, serif;
     float: right;
     width: 270px;
     padding: 0px;
@@ -128,8 +127,10 @@ header {
 }
 
 .side-title {
+    font-weight: bold;
     width: 240px;
     border-bottom: 1px solid #cecece;
+    font-family:'Georgia', Times, Times New Roman, serif;
     margin-bottom: 15px;
     margin-top: 20px;
     margin-left: 15px;
